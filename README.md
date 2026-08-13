@@ -1,18 +1,14 @@
-# Lumen Agent
+# lumen-agent
 
-Autonomous AI agent on Surface Pro 7+ (NixOS 25.05).
-Private repo — deployment scripts for Phase 1 Foundation.
+**Status: superseded. Kept for history — nothing here is current.**
 
-## Quick Deploy (when Lumen is online)
-```bash
-cd /home/stress7/lumen-deploy
-bash deploy-to-lumen.sh
-```
+Early-2026 Phase 1 deployment scripts for an autonomous agent running on a Surface Pro 7+ under
+NixOS 25.05. That deployment no longer exists. The host and the user account these scripts
+targeted were retired, and the agent work moved onto the Lumen homelab fleet, where it was rebuilt
+from scratch against a different architecture.
 
-## Morning Test (on hotspot)
-```bash
-bash /home/stress7/lumen-deploy/test-connectivity.sh
-```
+Any path referenced in this repository's history (`/home/stress7/...`) is dead, and the deploy and
+connectivity scripts it describes will not run against anything that exists today.
 
-## Architecture
-See LUMEN_ARCHITECTURE.md in /home/stress7/Documents/
+The repository is kept because it is where the project started, not because it is usable. If you
+are looking for the agent that actually runs, this is not it.
